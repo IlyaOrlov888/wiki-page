@@ -23,6 +23,12 @@ header{
   font-size: 25px;
   color: whitesmoke;
 }
+img{
+  display: flex;
+  float: left;
+  width: 125px;
+  height: 200px;
+}
 nav ul{
   list-style-type: none;
   margin: 0 auto;
