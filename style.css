@@ -1,3 +1,57 @@
-main {
-  width: 50%;
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+body{
+  min-height: 10vh;
+  background-color: darkslateblue;
+}
+main{
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  align-content: space-evenly;
+}
+header{
+  background-color: darkblue;
+  width: auto;
+  height: auto;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: whitesmoke;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: gray;
+  font-size: 20px;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color:brown;
+}
+section{
+  border: 1px solid black;
+  width: 150;
+  height: 150;
+  padding: 15px;
+  margin: 15px;
+  font-size: 20px;
+  }
+section:hover{
+  border: 3px solid darkred;
+  background-color: crimson;
 }
